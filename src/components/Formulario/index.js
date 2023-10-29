@@ -29,7 +29,15 @@ function Formulario () {
   const sendMsg = (event) => {
     event.preventDefault();
 
-    console.log(`Filial: ${data.filial}`)}
+    console.log(`Filial: ${data.filial}`);
+    console.log(`Operadora: ${data.operadora}`);
+    console.log(`Solicitante: ${data.solicitante}`);
+    console.log(`Descrição: ${data.descricao}`);
+    console.log(`Chamado: ${data.chamado}`);
+
+    };
+    
+    
 
   return (
     <FormularioContainer>
